@@ -54,6 +54,9 @@ Data Cleaning and Tidying:
 		Missing Values: We inspecgted all datasets for NA values and confirmed none were
 		present. An na.omit() command is included in the pipeline as a safeguard but does
 		not modify the data from its raw form.
+
+	Clean Data Visualization:
+		<img width="572" height="759" alt="image" src="https://github.com/user-attachments/assets/eac343be-b398-46f8-b440-7752b5f51ad0" />
 		
 Key Packages:
 	tidyverse (dplyr, tidyr)
