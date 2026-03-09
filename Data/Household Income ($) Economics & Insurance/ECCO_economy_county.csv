@@ -1,0 +1,577 @@
+GEOID,County,State,measure,value
+08001,Adams County,Colorado,Insured,0.8888650063619213
+08003,Alamosa County,Colorado,Insured,0.936081205782836
+08005,Arapahoe County,Colorado,Insured,0.9102497987232202
+08007,Archuleta County,Colorado,Insured,0.8848751835535976
+08009,Baca County,Colorado,Insured,0.9229857819905213
+08011,Bent County,Colorado,Insured,0.9181561618062088
+08013,Boulder County,Colorado,Insured,0.9562558839132661
+08014,Broomfield County,Colorado,Insured,0.951993141877411
+08015,Chaffee County,Colorado,Insured,0.9270207352065399
+08017,Cheyenne County,Colorado,Insured,0.9195742164399764
+08019,Clear Creek County,Colorado,Insured,0.9313725490196079
+08021,Conejos County,Colorado,Insured,0.8647098065376918
+08023,Costilla County,Colorado,Insured,0.9169248099127006
+08025,Crowley County,Colorado,Insured,0.9230217547214917
+08027,Custer County,Colorado,Insured,0.9216034755134281
+08029,Delta County,Colorado,Insured,0.889516924088071
+08031,Denver County,Colorado,Insured,0.9122146533947205
+08033,Dolores County,Colorado,Insured,0.9329140461215933
+08035,Douglas County,Colorado,Insured,0.963130686235729
+08037,Eagle County,Colorado,Insured,0.8988184630973275
+08039,Elbert County,Colorado,Insured,0.9544026900195839
+08041,El Paso County,Colorado,Insured,0.9289844407818769
+08043,Fremont County,Colorado,Insured,0.9413749879471603
+08045,Garfield County,Colorado,Insured,0.821232597899536
+08047,Gilpin County,Colorado,Insured,0.9257671866963827
+08049,Grand County,Colorado,Insured,0.8680837563451776
+08051,Gunnison County,Colorado,Insured,0.9383742026101715
+08053,Hinsdale County,Colorado,Insured,0.8935037273695421
+08055,Huerfano County,Colorado,Insured,0.9575810949655071
+08057,Jackson County,Colorado,Insured,0.9251412429378532
+08059,Jefferson County,Colorado,Insured,0.9475628091240259
+08061,Kiowa County,Colorado,Insured,0.9300225733634312
+08063,Kit Carson County,Colorado,Insured,0.8916305916305917
+08065,Lake County,Colorado,Insured,0.8667119565217392
+08067,La Plata County,Colorado,Insured,0.9047354060458103
+08069,Larimer County,Colorado,Insured,0.9428628414558812
+08071,Las Animas County,Colorado,Insured,0.9153602761397958
+08073,Lincoln County,Colorado,Insured,0.9212634470130464
+08075,Logan County,Colorado,Insured,0.9124053998772755
+08077,Mesa County,Colorado,Insured,0.9018481598533268
+08079,Mineral County,Colorado,Insured,0.8442211055276382
+08081,Moffat County,Colorado,Insured,0.9112227805695142
+08083,Montezuma County,Colorado,Insured,0.8856801817411728
+08085,Montrose County,Colorado,Insured,0.8708811724073555
+08087,Morgan County,Colorado,Insured,0.8922814469240679
+08089,Otero County,Colorado,Insured,0.9286965087008865
+08091,Ouray County,Colorado,Insured,0.8572850318471338
+08093,Park County,Colorado,Insured,0.9299399161092846
+08095,Phillips County,Colorado,Insured,0.9454009968282737
+08097,Pitkin County,Colorado,Insured,0.9545481134834747
+08099,Prowers County,Colorado,Insured,0.8990250105977109
+08101,Pueblo County,Colorado,Insured,0.9431076994084853
+08103,Rio Blanco County,Colorado,Insured,0.9036482694106641
+08105,Rio Grande County,Colorado,Insured,0.8623207765606911
+08107,Routt County,Colorado,Insured,0.9197535835078112
+08109,Saguache County,Colorado,Insured,0.8898318160777657
+08111,San Juan County,Colorado,Insured,0.8753623188405797
+08113,San Miguel County,Colorado,Insured,0.8923000124797205
+08115,Sedgwick County,Colorado,Insured,0.9166666666666666
+08117,Summit County,Colorado,Insured,0.8977578766345437
+08119,Teller County,Colorado,Insured,0.9300881003613333
+08121,Washington County,Colorado,Insured,0.9371907937190793
+08123,Weld County,Colorado,Insured,0.9152324647404853
+08125,Yuma County,Colorado,Insured,0.8537861686845886
+08001,Adams County,Colorado,Enrolled in Medicaid,0.22620804538362482
+08003,Alamosa County,Colorado,Enrolled in Medicaid,0.3846201168871117
+08005,Arapahoe County,Colorado,Enrolled in Medicaid,0.1755980190978182
+08007,Archuleta County,Colorado,Enrolled in Medicaid,0.20374449339207049
+08009,Baca County,Colorado,Enrolled in Medicaid,0.37885071090047395
+08011,Bent County,Colorado,Enrolled in Medicaid,0.4261523988711195
+08013,Boulder County,Colorado,Enrolled in Medicaid,0.1234126850270315
+08014,Broomfield County,Colorado,Enrolled in Medicaid,0.09490195027861123
+08015,Chaffee County,Colorado,Enrolled in Medicaid,0.19024416653131937
+08017,Cheyenne County,Colorado,Enrolled in Medicaid,0.22945002956830277
+08019,Clear Creek County,Colorado,Enrolled in Medicaid,0.08295625942684766
+08021,Conejos County,Colorado,Enrolled in Medicaid,0.3958639092728486
+08023,Costilla County,Colorado,Enrolled in Medicaid,0.37651365812447196
+08025,Crowley County,Colorado,Enrolled in Medicaid,0.36672244800382503
+08027,Custer County,Colorado,Enrolled in Medicaid,0.15817535545023698
+08029,Delta County,Colorado,Enrolled in Medicaid,0.28642786723628
+08031,Denver County,Colorado,Enrolled in Medicaid,0.20303218583743896
+08033,Dolores County,Colorado,Enrolled in Medicaid,0.19161425576519917
+08035,Douglas County,Colorado,Enrolled in Medicaid,0.06580824683207617
+08037,Eagle County,Colorado,Enrolled in Medicaid,0.1298243074529104
+08039,Elbert County,Colorado,Enrolled in Medicaid,0.10028452130214684
+08041,El Paso County,Colorado,Enrolled in Medicaid,0.1945727060301832
+08043,Fremont County,Colorado,Enrolled in Medicaid,0.272056696557709
+08045,Garfield County,Colorado,Enrolled in Medicaid,0.1939591305055768
+08047,Gilpin County,Colorado,Enrolled in Medicaid,0.17538145036859248
+08049,Grand County,Colorado,Enrolled in Medicaid,0.06871827411167512
+08051,Gunnison County,Colorado,Enrolled in Medicaid,0.1470123485690876
+08053,Hinsdale County,Colorado,Enrolled in Medicaid,0.16613418530351437
+08055,Huerfano County,Colorado,Enrolled in Medicaid,0.35035960663437543
+08057,Jackson County,Colorado,Enrolled in Medicaid,0.2612994350282486
+08059,Jefferson County,Colorado,Enrolled in Medicaid,0.12762347103924906
+08061,Kiowa County,Colorado,Enrolled in Medicaid,0.23777276147479307
+08063,Kit Carson County,Colorado,Enrolled in Medicaid,0.25165945165945164
+08065,Lake County,Colorado,Enrolled in Medicaid,0.12418478260869566
+08067,La Plata County,Colorado,Enrolled in Medicaid,0.18038701802254614
+08069,Larimer County,Colorado,Enrolled in Medicaid,0.14910898055630195
+08071,Las Animas County,Colorado,Enrolled in Medicaid,0.3141809290953545
+08073,Lincoln County,Colorado,Enrolled in Medicaid,0.23529411764705882
+08075,Logan County,Colorado,Enrolled in Medicaid,0.3056862344037635
+08077,Mesa County,Colorado,Enrolled in Medicaid,0.23648497047944458
+08079,Mineral County,Colorado,Enrolled in Medicaid,0.1721105527638191
+08081,Moffat County,Colorado,Enrolled in Medicaid,0.2909243185625095
+08083,Montezuma County,Colorado,Enrolled in Medicaid,0.3250163644064534
+08085,Montrose County,Colorado,Enrolled in Medicaid,0.2876411836086997
+08087,Morgan County,Colorado,Enrolled in Medicaid,0.2520976221146816
+08089,Otero County,Colorado,Enrolled in Medicaid,0.3854109664003502
+08091,Ouray County,Colorado,Enrolled in Medicaid,0.09434713375796179
+08093,Park County,Colorado,Enrolled in Medicaid,0.13671919283527945
+08095,Phillips County,Colorado,Enrolled in Medicaid,0.26144086995922067
+08097,Pitkin County,Colorado,Enrolled in Medicaid,0.10792629423808131
+08099,Prowers County,Colorado,Enrolled in Medicaid,0.3538787621873675
+08101,Pueblo County,Colorado,Enrolled in Medicaid,0.33074419113092274
+08103,Rio Blanco County,Colorado,Enrolled in Medicaid,0.228874337386966
+08105,Rio Grande County,Colorado,Enrolled in Medicaid,0.2992252204114347
+08107,Routt County,Colorado,Enrolled in Medicaid,0.1282412626832018
+08109,Saguache County,Colorado,Enrolled in Medicaid,0.3072056781360901
+08111,San Juan County,Colorado,Enrolled in Medicaid,0.10434782608695652
+08113,San Miguel County,Colorado,Enrolled in Medicaid,0.09060277049794084
+08115,Sedgwick County,Colorado,Enrolled in Medicaid,0.2189119170984456
+08117,Summit County,Colorado,Enrolled in Medicaid,0.1229111911483176
+08119,Teller County,Colorado,Enrolled in Medicaid,0.18724371726685884
+08121,Washington County,Colorado,Enrolled in Medicaid,0.28393202839320286
+08123,Weld County,Colorado,Enrolled in Medicaid,0.1967740792364573
+08125,Yuma County,Colorado,Enrolled in Medicaid,0.19279704494151448
+08001,Adams County,Colorado,Household Income ($),91387.0
+08003,Alamosa County,Colorado,Household Income ($),51445.0
+08005,Arapahoe County,Colorado,Household Income ($),97215.0
+08007,Archuleta County,Colorado,Household Income ($),76524.0
+08009,Baca County,Colorado,Household Income ($),40380.0
+08011,Bent County,Colorado,Household Income ($),49194.0
+08013,Boulder County,Colorado,Household Income ($),102772.0
+08014,Broomfield County,Colorado,Household Income ($),121025.0
+08015,Chaffee County,Colorado,Household Income ($),70909.0
+08017,Cheyenne County,Colorado,Household Income ($),67768.0
+08019,Clear Creek County,Colorado,Household Income ($),96667.0
+08021,Conejos County,Colorado,Household Income ($),47209.0
+08023,Costilla County,Colorado,Household Income ($),36519.0
+08025,Crowley County,Colorado,Household Income ($),47563.0
+08027,Custer County,Colorado,Household Income ($),72700.0
+08029,Delta County,Colorado,Household Income ($),58330.0
+08031,Denver County,Colorado,Household Income ($),91681.0
+08033,Dolores County,Colorado,Household Income ($),70490.0
+08035,Douglas County,Colorado,Household Income ($),145737.0
+08037,Eagle County,Colorado,Household Income ($),103174.0
+08039,Elbert County,Colorado,Household Income ($),129477.0
+08041,El Paso County,Colorado,Household Income ($),87470.0
+08043,Fremont County,Colorado,Household Income ($),61027.0
+08045,Garfield County,Colorado,Household Income ($),86172.0
+08047,Gilpin County,Colorado,Household Income ($),88654.0
+08049,Grand County,Colorado,Household Income ($),84558.0
+08051,Gunnison County,Colorado,Household Income ($),77358.0
+08053,Hinsdale County,Colorado,Household Income ($),64327.0
+08055,Huerfano County,Colorado,Household Income ($),52139.0
+08057,Jackson County,Colorado,Household Income ($),41809.0
+08059,Jefferson County,Colorado,Household Income ($),107800.0
+08061,Kiowa County,Colorado,Household Income ($),56389.0
+08063,Kit Carson County,Colorado,Household Income ($),59810.0
+08065,Lake County,Colorado,Household Income ($),93655.0
+08067,La Plata County,Colorado,Household Income ($),85296.0
+08069,Larimer County,Colorado,Household Income ($),91364.0
+08071,Las Animas County,Colorado,Household Income ($),50408.0
+08073,Lincoln County,Colorado,Household Income ($),54257.0
+08075,Logan County,Colorado,Household Income ($),55074.0
+08077,Mesa County,Colorado,Household Income ($),71485.0
+08079,Mineral County,Colorado,Household Income ($),52455.0
+08081,Moffat County,Colorado,Household Income ($),70975.0
+08083,Montezuma County,Colorado,Household Income ($),63005.0
+08085,Montrose County,Colorado,Household Income ($),66072.0
+08087,Morgan County,Colorado,Household Income ($),75407.0
+08089,Otero County,Colorado,Household Income ($),54897.0
+08091,Ouray County,Colorado,Household Income ($),84556.0
+08093,Park County,Colorado,Household Income ($),95450.0
+08095,Phillips County,Colorado,Household Income ($),60372.0
+08097,Pitkin County,Colorado,Household Income ($),100318.0
+08099,Prowers County,Colorado,Household Income ($),57601.0
+08101,Pueblo County,Colorado,Household Income ($),62250.0
+08103,Rio Blanco County,Colorado,Household Income ($),72620.0
+08105,Rio Grande County,Colorado,Household Income ($),62166.0
+08107,Routt County,Colorado,Household Income ($),104803.0
+08109,Saguache County,Colorado,Household Income ($),54283.0
+08111,San Juan County,Colorado,Household Income ($),73889.0
+08113,San Miguel County,Colorado,Household Income ($),80117.0
+08115,Sedgwick County,Colorado,Household Income ($),52833.0
+08117,Summit County,Colorado,Household Income ($),106255.0
+08119,Teller County,Colorado,Household Income ($),80666.0
+08121,Washington County,Colorado,Household Income ($),65164.0
+08123,Weld County,Colorado,Household Income ($),93287.0
+08125,Yuma County,Colorado,Household Income ($),60051.0
+08001,Adams County,Colorado,Annual Labor Force Participation,0.7189658356417359
+08003,Alamosa County,Colorado,Annual Labor Force Participation,0.6226241569589209
+08005,Arapahoe County,Colorado,Annual Labor Force Participation,0.7141964027162772
+08007,Archuleta County,Colorado,Annual Labor Force Participation,0.5312178387650086
+08009,Baca County,Colorado,Annual Labor Force Participation,0.5511014806789455
+08011,Bent County,Colorado,Annual Labor Force Participation,0.3532275132275132
+08013,Boulder County,Colorado,Annual Labor Force Participation,0.6725782425083883
+08014,Broomfield County,Colorado,Annual Labor Force Participation,0.7091252585462777
+08015,Chaffee County,Colorado,Annual Labor Force Participation,0.553409811494783
+08017,Cheyenne County,Colorado,Annual Labor Force Participation,0.6763215061549602
+08019,Clear Creek County,Colorado,Annual Labor Force Participation,0.6909353905496625
+08021,Conejos County,Colorado,Annual Labor Force Participation,0.5937767139681996
+08023,Costilla County,Colorado,Annual Labor Force Participation,0.4375419744795164
+08025,Crowley County,Colorado,Annual Labor Force Participation,0.3441545508862776
+08027,Custer County,Colorado,Annual Labor Force Participation,0.48889387480367963
+08029,Delta County,Colorado,Annual Labor Force Participation,0.4846292255273535
+08031,Denver County,Colorado,Annual Labor Force Participation,0.7423639982865926
+08033,Dolores County,Colorado,Annual Labor Force Participation,0.5821885362387494
+08035,Douglas County,Colorado,Annual Labor Force Participation,0.7217213227411419
+08037,Eagle County,Colorado,Annual Labor Force Participation,0.7435122252626004
+08039,Elbert County,Colorado,Annual Labor Force Participation,0.6551616080222044
+08041,El Paso County,Colorado,Annual Labor Force Participation,0.6683107387550582
+08043,Fremont County,Colorado,Annual Labor Force Participation,0.4324470588235294
+08045,Garfield County,Colorado,Annual Labor Force Participation,0.7303207902748151
+08047,Gilpin County,Colorado,Annual Labor Force Participation,0.7150516282764099
+08049,Grand County,Colorado,Annual Labor Force Participation,0.6931118855193891
+08051,Gunnison County,Colorado,Annual Labor Force Participation,0.7259019924609585
+08053,Hinsdale County,Colorado,Annual Labor Force Participation,0.5555555555555556
+08055,Huerfano County,Colorado,Annual Labor Force Participation,0.41149273447820345
+08057,Jackson County,Colorado,Annual Labor Force Participation,0.5779376498800959
+08059,Jefferson County,Colorado,Annual Labor Force Participation,0.6932040882141352
+08061,Kiowa County,Colorado,Annual Labor Force Participation,0.6215469613259669
+08063,Kit Carson County,Colorado,Annual Labor Force Participation,0.6569573283858998
+08065,Lake County,Colorado,Annual Labor Force Participation,0.7673814165042235
+08067,La Plata County,Colorado,Annual Labor Force Participation,0.6359280929364878
+08069,Larimer County,Colorado,Annual Labor Force Participation,0.6716736290107546
+08071,Las Animas County,Colorado,Annual Labor Force Participation,0.5167393271366291
+08073,Lincoln County,Colorado,Annual Labor Force Participation,0.4603749467405198
+08075,Logan County,Colorado,Annual Labor Force Participation,0.5866666666666667
+08077,Mesa County,Colorado,Annual Labor Force Participation,0.6120194775898816
+08079,Mineral County,Colorado,Annual Labor Force Participation,0.5875706214689266
+08081,Moffat County,Colorado,Annual Labor Force Participation,0.6444705192138457
+08083,Montezuma County,Colorado,Annual Labor Force Participation,0.550920245398773
+08085,Montrose County,Colorado,Annual Labor Force Participation,0.5561620709060214
+08087,Morgan County,Colorado,Annual Labor Force Participation,0.6526546691736055
+08089,Otero County,Colorado,Annual Labor Force Participation,0.5663571818678318
+08091,Ouray County,Colorado,Annual Labor Force Participation,0.5493965131873044
+08093,Park County,Colorado,Annual Labor Force Participation,0.5950413223140496
+08095,Phillips County,Colorado,Annual Labor Force Participation,0.6366313309776207
+08097,Pitkin County,Colorado,Annual Labor Force Participation,0.6930706339632757
+08099,Prowers County,Colorado,Annual Labor Force Participation,0.619487290897241
+08101,Pueblo County,Colorado,Annual Labor Force Participation,0.5550023637867865
+08103,Rio Blanco County,Colorado,Annual Labor Force Participation,0.5986515962720603
+08105,Rio Grande County,Colorado,Annual Labor Force Participation,0.6031120110838751
+08107,Routt County,Colorado,Annual Labor Force Participation,0.6804635761589404
+08109,Saguache County,Colorado,Annual Labor Force Participation,0.5720254314259764
+08111,San Juan County,Colorado,Annual Labor Force Participation,0.7228525121555915
+08113,San Miguel County,Colorado,Annual Labor Force Participation,0.7269047274830128
+08115,Sedgwick County,Colorado,Annual Labor Force Participation,0.5981259760541384
+08117,Summit County,Colorado,Annual Labor Force Participation,0.7487911755817468
+08119,Teller County,Colorado,Annual Labor Force Participation,0.5816620263319333
+08121,Washington County,Colorado,Annual Labor Force Participation,0.5903366743767668
+08123,Weld County,Colorado,Annual Labor Force Participation,0.697794720289717
+08125,Yuma County,Colorado,Annual Labor Force Participation,0.6793728034603947
+08001,Adams County,Colorado,Annual Unemployment Rate,0.0460084249460598
+08003,Alamosa County,Colorado,Annual Unemployment Rate,0.02498769079271295
+08005,Arapahoe County,Colorado,Annual Unemployment Rate,0.0468131154055803
+08007,Archuleta County,Colorado,Annual Unemployment Rate,0.018243461414271876
+08009,Baca County,Colorado,Annual Unemployment Rate,0.01310615989515072
+08011,Bent County,Colorado,Annual Unemployment Rate,0.046135410425404436
+08013,Boulder County,Colorado,Annual Unemployment Rate,0.04619420596820755
+08014,Broomfield County,Colorado,Annual Unemployment Rate,0.032521072092969845
+08015,Chaffee County,Colorado,Annual Unemployment Rate,0.0521875
+08017,Cheyenne County,Colorado,Annual Unemployment Rate,0.019271948608137045
+08019,Clear Creek County,Colorado,Annual Unemployment Rate,0.0418702023726448
+08021,Conejos County,Colorado,Annual Unemployment Rate,0.046357615894039736
+08023,Costilla County,Colorado,Annual Unemployment Rate,0.04528012279355334
+08025,Crowley County,Colorado,Annual Unemployment Rate,0.05555555555555555
+08027,Custer County,Colorado,Annual Unemployment Rate,0.0559889857732905
+08029,Delta County,Colorado,Annual Unemployment Rate,0.03151907733628249
+08031,Denver County,Colorado,Annual Unemployment Rate,0.045988871616285724
+08033,Dolores County,Colorado,Annual Unemployment Rate,0.025223759153783564
+08035,Douglas County,Colorado,Annual Unemployment Rate,0.03550684618460894
+08037,Eagle County,Colorado,Annual Unemployment Rate,0.04196717419048467
+08039,Elbert County,Colorado,Annual Unemployment Rate,0.02992825418517253
+08041,El Paso County,Colorado,Annual Unemployment Rate,0.05462822043646836
+08043,Fremont County,Colorado,Annual Unemployment Rate,0.043691169269274716
+08045,Garfield County,Colorado,Annual Unemployment Rate,0.03638168155394868
+08047,Gilpin County,Colorado,Annual Unemployment Rate,0.029713968342127188
+08049,Grand County,Colorado,Annual Unemployment Rate,0.04418057338468122
+08051,Gunnison County,Colorado,Annual Unemployment Rate,0.03662833827893175
+08053,Hinsdale County,Colorado,Annual Unemployment Rate,0.015384615384615385
+08055,Huerfano County,Colorado,Annual Unemployment Rate,0.11075441412520064
+08057,Jackson County,Colorado,Annual Unemployment Rate,0.0954356846473029
+08059,Jefferson County,Colorado,Annual Unemployment Rate,0.03872959069559383
+08061,Kiowa County,Colorado,Annual Unemployment Rate,0.0
+08063,Kit Carson County,Colorado,Annual Unemployment Rate,0.02795820389720418
+08065,Lake County,Colorado,Annual Unemployment Rate,0.02286198137171888
+08067,La Plata County,Colorado,Annual Unemployment Rate,0.031302086805787055
+08069,Larimer County,Colorado,Annual Unemployment Rate,0.045285460132621705
+08071,Las Animas County,Colorado,Annual Unemployment Rate,0.055873925501432664
+08073,Lincoln County,Colorado,Annual Unemployment Rate,0.018047200370198982
+08075,Logan County,Colorado,Annual Unemployment Rate,0.05609284332688588
+08077,Mesa County,Colorado,Annual Unemployment Rate,0.051118454499237416
+08079,Mineral County,Colorado,Annual Unemployment Rate,0.07451923076923077
+08081,Moffat County,Colorado,Annual Unemployment Rate,0.04005461993627674
+08083,Montezuma County,Colorado,Annual Unemployment Rate,0.04480041117012164
+08085,Montrose County,Colorado,Annual Unemployment Rate,0.04239603359303855
+08087,Morgan County,Colorado,Annual Unemployment Rate,0.041978187804376156
+08089,Otero County,Colorado,Annual Unemployment Rate,0.04580520732883317
+08091,Ouray County,Colorado,Annual Unemployment Rate,0.03213995117982099
+08093,Park County,Colorado,Annual Unemployment Rate,0.03521434820647419
+08095,Phillips County,Colorado,Annual Unemployment Rate,0.00786308973172988
+08097,Pitkin County,Colorado,Annual Unemployment Rate,0.015374202281957069
+08099,Prowers County,Colorado,Annual Unemployment Rate,0.04751884972821322
+08101,Pueblo County,Colorado,Annual Unemployment Rate,0.05414326403492427
+08103,Rio Blanco County,Colorado,Annual Unemployment Rate,0.04339185160649221
+08105,Rio Grande County,Colorado,Annual Unemployment Rate,0.07969605937444778
+08107,Routt County,Colorado,Annual Unemployment Rate,0.024608967674661104
+08109,Saguache County,Colorado,Annual Unemployment Rate,0.07875516036837091
+08111,San Juan County,Colorado,Annual Unemployment Rate,0.06726457399103139
+08113,San Miguel County,Colorado,Annual Unemployment Rate,0.04136833731105807
+08115,Sedgwick County,Colorado,Annual Unemployment Rate,0.022628372497824196
+08117,Summit County,Colorado,Annual Unemployment Rate,0.03334678639895066
+08119,Teller County,Colorado,Annual Unemployment Rate,0.034236573097517445
+08121,Washington County,Colorado,Annual Unemployment Rate,0.033521985198084456
+08123,Weld County,Colorado,Annual Unemployment Rate,0.04739714502674147
+08125,Yuma County,Colorado,Annual Unemployment Rate,0.052327894946279346
+08001,Adams County,Colorado,Living Below Poverty,0.07041619975062738
+08003,Alamosa County,Colorado,Living Below Poverty,0.1337180130456598
+08005,Arapahoe County,Colorado,Living Below Poverty,0.05697265361656227
+08007,Archuleta County,Colorado,Living Below Poverty,0.04823304680038205
+08009,Baca County,Colorado,Living Below Poverty,0.2009685230024213
+08011,Bent County,Colorado,Living Below Poverty,0.2361111111111111
+08013,Boulder County,Colorado,Living Below Poverty,0.04334913701257192
+08014,Broomfield County,Colorado,Living Below Poverty,0.020763772954924875
+08015,Chaffee County,Colorado,Living Below Poverty,0.07069635913750442
+08017,Cheyenne County,Colorado,Living Below Poverty,0.09611451942740286
+08019,Clear Creek County,Colorado,Living Below Poverty,0.03389830508474576
+08021,Conejos County,Colorado,Living Below Poverty,0.11867174741426238
+08023,Costilla County,Colorado,Living Below Poverty,0.21089808274470231
+08025,Crowley County,Colorado,Living Below Poverty,0.16770186335403728
+08027,Custer County,Colorado,Living Below Poverty,0.05537669027688345
+08029,Delta County,Colorado,Living Below Poverty,0.10757633831608535
+08031,Denver County,Colorado,Living Below Poverty,0.07722903987495428
+08033,Dolores County,Colorado,Living Below Poverty,0.09284116331096197
+08035,Douglas County,Colorado,Living Below Poverty,0.021444717253205504
+08037,Eagle County,Colorado,Living Below Poverty,0.045867214020683666
+08039,Elbert County,Colorado,Living Below Poverty,0.04025744573447754
+08041,El Paso County,Colorado,Living Below Poverty,0.05531313765499921
+08043,Fremont County,Colorado,Living Below Poverty,0.0915038618809632
+08045,Garfield County,Colorado,Living Below Poverty,0.06956466395112017
+08047,Gilpin County,Colorado,Living Below Poverty,0.046740467404674045
+08049,Grand County,Colorado,Living Below Poverty,0.022400442477876106
+08051,Gunnison County,Colorado,Living Below Poverty,0.04718562874251497
+08053,Hinsdale County,Colorado,Living Below Poverty,0.0
+08055,Huerfano County,Colorado,Living Below Poverty,0.1146384479717813
+08057,Jackson County,Colorado,Living Below Poverty,0.14849187935034802
+08059,Jefferson County,Colorado,Living Below Poverty,0.037460220844608226
+08061,Kiowa County,Colorado,Living Below Poverty,0.07647058823529412
+08063,Kit Carson County,Colorado,Living Below Poverty,0.07025246981339188
+08065,Lake County,Colorado,Living Below Poverty,0.05615826419910657
+08067,La Plata County,Colorado,Living Below Poverty,0.0800896107532904
+08069,Larimer County,Colorado,Living Below Poverty,0.046293146024255064
+08071,Las Animas County,Colorado,Living Below Poverty,0.10818486961012136
+08073,Lincoln County,Colorado,Living Below Poverty,0.03225806451612903
+08075,Logan County,Colorado,Living Below Poverty,0.09077868852459016
+08077,Mesa County,Colorado,Living Below Poverty,0.07293434678867489
+08079,Mineral County,Colorado,Living Below Poverty,0.04048582995951417
+08081,Moffat County,Colorado,Living Below Poverty,0.10825635103926097
+08083,Montezuma County,Colorado,Living Below Poverty,0.06827880512091039
+08085,Montrose County,Colorado,Living Below Poverty,0.08165176670923797
+08087,Morgan County,Colorado,Living Below Poverty,0.09776129288647503
+08089,Otero County,Colorado,Living Below Poverty,0.15581203627370158
+08091,Ouray County,Colorado,Living Below Poverty,0.03213610586011342
+08093,Park County,Colorado,Living Below Poverty,0.03488372093023256
+08095,Phillips County,Colorado,Living Below Poverty,0.159369527145359
+08097,Pitkin County,Colorado,Living Below Poverty,0.03160322952710496
+08099,Prowers County,Colorado,Living Below Poverty,0.09760765550239234
+08101,Pueblo County,Colorado,Living Below Poverty,0.11588705279878612
+08103,Rio Blanco County,Colorado,Living Below Poverty,0.07180694526191878
+08105,Rio Grande County,Colorado,Living Below Poverty,0.10143652887716212
+08107,Routt County,Colorado,Living Below Poverty,0.037730455909675574
+08109,Saguache County,Colorado,Living Below Poverty,0.14865577227200844
+08111,San Juan County,Colorado,Living Below Poverty,0.14418604651162792
+08113,San Miguel County,Colorado,Living Below Poverty,0.03198741478762454
+08115,Sedgwick County,Colorado,Living Below Poverty,0.1407035175879397
+08117,Summit County,Colorado,Living Below Poverty,0.0339813028639264
+08119,Teller County,Colorado,Living Below Poverty,0.03516717730118556
+08121,Washington County,Colorado,Living Below Poverty,0.04878048780487805
+08123,Weld County,Colorado,Living Below Poverty,0.0602377897919912
+08125,Yuma County,Colorado,Living Below Poverty,0.11056231003039514
+08001,Adams County,Colorado,Received TANF or SNAP Public Assistance,0.1139410912393763
+08003,Alamosa County,Colorado,Received TANF or SNAP Public Assistance,0.273972602739726
+08005,Arapahoe County,Colorado,Received TANF or SNAP Public Assistance,0.08902674386545355
+08007,Archuleta County,Colorado,Received TANF or SNAP Public Assistance,0.060128726287262874
+08009,Baca County,Colorado,Received TANF or SNAP Public Assistance,0.23854362837413684
+08011,Bent County,Colorado,Received TANF or SNAP Public Assistance,0.23946666666666666
+08013,Boulder County,Colorado,Received TANF or SNAP Public Assistance,0.07253567995267322
+08014,Broomfield County,Colorado,Received TANF or SNAP Public Assistance,0.04294815820963099
+08015,Chaffee County,Colorado,Received TANF or SNAP Public Assistance,0.0977705274605764
+08017,Cheyenne County,Colorado,Received TANF or SNAP Public Assistance,0.07323568575233022
+08019,Clear Creek County,Colorado,Received TANF or SNAP Public Assistance,0.05230496453900709
+08021,Conejos County,Colorado,Received TANF or SNAP Public Assistance,0.19633676092544988
+08023,Costilla County,Colorado,Received TANF or SNAP Public Assistance,0.24587039390088947
+08025,Crowley County,Colorado,Received TANF or SNAP Public Assistance,0.2535633908477119
+08027,Custer County,Colorado,Received TANF or SNAP Public Assistance,0.07148692810457516
+08029,Delta County,Colorado,Received TANF or SNAP Public Assistance,0.14903542061986086
+08031,Denver County,Colorado,Received TANF or SNAP Public Assistance,0.09818616533870586
+08033,Dolores County,Colorado,Received TANF or SNAP Public Assistance,0.10581583198707593
+08035,Douglas County,Colorado,Received TANF or SNAP Public Assistance,0.028208330272533607
+08037,Eagle County,Colorado,Received TANF or SNAP Public Assistance,0.04433073501984602
+08039,Elbert County,Colorado,Received TANF or SNAP Public Assistance,0.048772910841876356
+08041,El Paso County,Colorado,Received TANF or SNAP Public Assistance,0.09722290888287767
+08043,Fremont County,Colorado,Received TANF or SNAP Public Assistance,0.1601582367900537
+08045,Garfield County,Colorado,Received TANF or SNAP Public Assistance,0.09384075245979802
+08047,Gilpin County,Colorado,Received TANF or SNAP Public Assistance,0.08159947984395319
+08049,Grand County,Colorado,Received TANF or SNAP Public Assistance,0.05944272445820433
+08051,Gunnison County,Colorado,Received TANF or SNAP Public Assistance,0.07617360496014172
+08053,Hinsdale County,Colorado,Received TANF or SNAP Public Assistance,0.10359408033826638
+08055,Huerfano County,Colorado,Received TANF or SNAP Public Assistance,0.16466854724964738
+08057,Jackson County,Colorado,Received TANF or SNAP Public Assistance,0.15930599369085174
+08059,Jefferson County,Colorado,Received TANF or SNAP Public Assistance,0.06075465252404898
+08061,Kiowa County,Colorado,Received TANF or SNAP Public Assistance,0.15853658536585366
+08063,Kit Carson County,Colorado,Received TANF or SNAP Public Assistance,0.11496225120109815
+08065,Lake County,Colorado,Received TANF or SNAP Public Assistance,0.06522473808719162
+08067,La Plata County,Colorado,Received TANF or SNAP Public Assistance,0.08577586206896552
+08069,Larimer County,Colorado,Received TANF or SNAP Public Assistance,0.08296441931504048
+08071,Las Animas County,Colorado,Received TANF or SNAP Public Assistance,0.1911654976869124
+08073,Lincoln County,Colorado,Received TANF or SNAP Public Assistance,0.11116751269035532
+08075,Logan County,Colorado,Received TANF or SNAP Public Assistance,0.15525282277859598
+08077,Mesa County,Colorado,Received TANF or SNAP Public Assistance,0.11347759413869483
+08079,Mineral County,Colorado,Received TANF or SNAP Public Assistance,0.10368663594470046
+08081,Moffat County,Colorado,Received TANF or SNAP Public Assistance,0.11955496888553649
+08083,Montezuma County,Colorado,Received TANF or SNAP Public Assistance,0.11378836463582226
+08085,Montrose County,Colorado,Received TANF or SNAP Public Assistance,0.12037195504592389
+08087,Morgan County,Colorado,Received TANF or SNAP Public Assistance,0.14148463699809663
+08089,Otero County,Colorado,Received TANF or SNAP Public Assistance,0.21431375114483842
+08091,Ouray County,Colorado,Received TANF or SNAP Public Assistance,0.045346062052505964
+08093,Park County,Colorado,Received TANF or SNAP Public Assistance,0.0576536048301172
+08095,Phillips County,Colorado,Received TANF or SNAP Public Assistance,0.0984400215169446
+08097,Pitkin County,Colorado,Received TANF or SNAP Public Assistance,0.04030561399623519
+08099,Prowers County,Colorado,Received TANF or SNAP Public Assistance,0.18448729184925505
+08101,Pueblo County,Colorado,Received TANF or SNAP Public Assistance,0.2131650348000472
+08103,Rio Blanco County,Colorado,Received TANF or SNAP Public Assistance,0.13606494008504058
+08105,Rio Grande County,Colorado,Received TANF or SNAP Public Assistance,0.22019077901430842
+08107,Routt County,Colorado,Received TANF or SNAP Public Assistance,0.06045767021376777
+08109,Saguache County,Colorado,Received TANF or SNAP Public Assistance,0.20883164673413063
+08111,San Juan County,Colorado,Received TANF or SNAP Public Assistance,0.0856353591160221
+08113,San Miguel County,Colorado,Received TANF or SNAP Public Assistance,0.055777888944472234
+08115,Sedgwick County,Colorado,Received TANF or SNAP Public Assistance,0.153
+08117,Summit County,Colorado,Received TANF or SNAP Public Assistance,0.03612213493156232
+08119,Teller County,Colorado,Received TANF or SNAP Public Assistance,0.11952368257353595
+08121,Washington County,Colorado,Received TANF or SNAP Public Assistance,0.10386473429951691
+08123,Weld County,Colorado,Received TANF or SNAP Public Assistance,0.09532657329256201
+08125,Yuma County,Colorado,Received TANF or SNAP Public Assistance,0.13848875410664646
+08001,Adams County,Colorado,Monthly Unemployment Rate,0.034
+08003,Alamosa County,Colorado,Monthly Unemployment Rate,0.037000000000000005
+08005,Arapahoe County,Colorado,Monthly Unemployment Rate,0.031000000000000003
+08007,Archuleta County,Colorado,Monthly Unemployment Rate,0.032
+08009,Baca County,Colorado,Monthly Unemployment Rate,0.022000000000000002
+08011,Bent County,Colorado,Monthly Unemployment Rate,0.032
+08013,Boulder County,Colorado,Monthly Unemployment Rate,0.028999999999999998
+08014,Broomfield County,Colorado,Monthly Unemployment Rate,0.032
+08015,Chaffee County,Colorado,Monthly Unemployment Rate,0.032
+08017,Cheyenne County,Colorado,Monthly Unemployment Rate,0.023
+08019,Clear Creek County,Colorado,Monthly Unemployment Rate,0.03
+08021,Conejos County,Colorado,Monthly Unemployment Rate,0.034
+08023,Costilla County,Colorado,Monthly Unemployment Rate,0.042
+08025,Crowley County,Colorado,Monthly Unemployment Rate,0.036000000000000004
+08027,Custer County,Colorado,Monthly Unemployment Rate,0.032
+08029,Delta County,Colorado,Monthly Unemployment Rate,0.036000000000000004
+08031,Denver County,Colorado,Monthly Unemployment Rate,0.034
+08033,Dolores County,Colorado,Monthly Unemployment Rate,0.032
+08035,Douglas County,Colorado,Monthly Unemployment Rate,0.03
+08037,Eagle County,Colorado,Monthly Unemployment Rate,0.032
+08039,Elbert County,Colorado,Monthly Unemployment Rate,0.027999999999999997
+08041,El Paso County,Colorado,Monthly Unemployment Rate,0.033
+08043,Fremont County,Colorado,Monthly Unemployment Rate,0.047
+08045,Garfield County,Colorado,Monthly Unemployment Rate,0.03
+08047,Gilpin County,Colorado,Monthly Unemployment Rate,0.027999999999999997
+08049,Grand County,Colorado,Monthly Unemployment Rate,0.027999999999999997
+08051,Gunnison County,Colorado,Monthly Unemployment Rate,0.03
+08053,Hinsdale County,Colorado,Monthly Unemployment Rate,0.034
+08055,Huerfano County,Colorado,Monthly Unemployment Rate,0.053
+08057,Jackson County,Colorado,Monthly Unemployment Rate,0.02
+08059,Jefferson County,Colorado,Monthly Unemployment Rate,0.031000000000000003
+08061,Kiowa County,Colorado,Monthly Unemployment Rate,0.023
+08063,Kit Carson County,Colorado,Monthly Unemployment Rate,0.019
+08065,Lake County,Colorado,Monthly Unemployment Rate,0.027000000000000003
+08067,La Plata County,Colorado,Monthly Unemployment Rate,0.028999999999999998
+08069,Larimer County,Colorado,Monthly Unemployment Rate,0.028999999999999998
+08071,Las Animas County,Colorado,Monthly Unemployment Rate,0.049
+08073,Lincoln County,Colorado,Monthly Unemployment Rate,0.026000000000000002
+08075,Logan County,Colorado,Monthly Unemployment Rate,0.026000000000000002
+08077,Mesa County,Colorado,Monthly Unemployment Rate,0.033
+08079,Mineral County,Colorado,Monthly Unemployment Rate,0.027000000000000003
+08081,Moffat County,Colorado,Monthly Unemployment Rate,0.03
+08083,Montezuma County,Colorado,Monthly Unemployment Rate,0.038
+08085,Montrose County,Colorado,Monthly Unemployment Rate,0.033
+08087,Morgan County,Colorado,Monthly Unemployment Rate,0.03
+08089,Otero County,Colorado,Monthly Unemployment Rate,0.038
+08091,Ouray County,Colorado,Monthly Unemployment Rate,0.035
+08093,Park County,Colorado,Monthly Unemployment Rate,0.027999999999999997
+08095,Phillips County,Colorado,Monthly Unemployment Rate,0.022000000000000002
+08097,Pitkin County,Colorado,Monthly Unemployment Rate,0.052000000000000005
+08099,Prowers County,Colorado,Monthly Unemployment Rate,0.027999999999999997
+08101,Pueblo County,Colorado,Monthly Unemployment Rate,0.043
+08103,Rio Blanco County,Colorado,Monthly Unemployment Rate,0.032
+08105,Rio Grande County,Colorado,Monthly Unemployment Rate,0.043
+08107,Routt County,Colorado,Monthly Unemployment Rate,0.028999999999999998
+08109,Saguache County,Colorado,Monthly Unemployment Rate,0.035
+08111,San Juan County,Colorado,Monthly Unemployment Rate,0.036000000000000004
+08113,San Miguel County,Colorado,Monthly Unemployment Rate,0.059000000000000004
+08115,Sedgwick County,Colorado,Monthly Unemployment Rate,0.035
+08117,Summit County,Colorado,Monthly Unemployment Rate,0.023
+08119,Teller County,Colorado,Monthly Unemployment Rate,0.031000000000000003
+08121,Washington County,Colorado,Monthly Unemployment Rate,0.026000000000000002
+08123,Weld County,Colorado,Monthly Unemployment Rate,0.033
+08125,Yuma County,Colorado,Monthly Unemployment Rate,0.023
+08001,Adams County,Colorado,Uninsured,0.11113499363807866
+08003,Alamosa County,Colorado,Uninsured,0.06391879421716395
+08005,Arapahoe County,Colorado,Uninsured,0.0897502012767798
+08007,Archuleta County,Colorado,Uninsured,0.11512481644640238
+08009,Baca County,Colorado,Uninsured,0.07701421800947872
+08011,Bent County,Colorado,Uninsured,0.08184383819379115
+08013,Boulder County,Colorado,Uninsured,0.0437441160867339
+08014,Broomfield County,Colorado,Uninsured,0.04800685812258898
+08015,Chaffee County,Colorado,Uninsured,0.07297926479346006
+08017,Cheyenne County,Colorado,Uninsured,0.08042578356002361
+08019,Clear Creek County,Colorado,Uninsured,0.06862745098039214
+08021,Conejos County,Colorado,Uninsured,0.1352901934623082
+08023,Costilla County,Colorado,Uninsured,0.08307519008729936
+08025,Crowley County,Colorado,Uninsured,0.07697824527850827
+08027,Custer County,Colorado,Uninsured,0.07839652448657186
+08029,Delta County,Colorado,Uninsured,0.11048307591192896
+08031,Denver County,Colorado,Uninsured,0.08778534660527948
+08033,Dolores County,Colorado,Uninsured,0.06708595387840666
+08035,Douglas County,Colorado,Uninsured,0.03686931376427105
+08037,Eagle County,Colorado,Uninsured,0.10118153690267251
+08039,Elbert County,Colorado,Uninsured,0.04559730998041611
+08041,El Paso County,Colorado,Uninsured,0.07101555921812308
+08043,Fremont County,Colorado,Uninsured,0.05862501205283965
+08045,Garfield County,Colorado,Uninsured,0.17876740210046405
+08047,Gilpin County,Colorado,Uninsured,0.0742328133036173
+08049,Grand County,Colorado,Uninsured,0.13191624365482235
+08051,Gunnison County,Colorado,Uninsured,0.06162579738982854
+08053,Hinsdale County,Colorado,Uninsured,0.10649627263045791
+08055,Huerfano County,Colorado,Uninsured,0.04241890503449286
+08057,Jackson County,Colorado,Uninsured,0.07485875706214684
+08059,Jefferson County,Colorado,Uninsured,0.05243719087597409
+08061,Kiowa County,Colorado,Uninsured,0.0699774266365688
+08063,Kit Carson County,Colorado,Uninsured,0.10836940836940834
+08065,Lake County,Colorado,Uninsured,0.13328804347826084
+08067,La Plata County,Colorado,Uninsured,0.09526459395418974
+08069,Larimer County,Colorado,Uninsured,0.05713715854411883
+08071,Las Animas County,Colorado,Uninsured,0.08463972386020424
+08073,Lincoln County,Colorado,Uninsured,0.07873655298695359
+08075,Logan County,Colorado,Uninsured,0.08759460012272446
+08077,Mesa County,Colorado,Uninsured,0.09815184014667322
+08079,Mineral County,Colorado,Uninsured,0.15577889447236182
+08081,Moffat County,Colorado,Uninsured,0.08877721943048578
+08083,Montezuma County,Colorado,Uninsured,0.1143198182588272
+08085,Montrose County,Colorado,Uninsured,0.12911882759264448
+08087,Morgan County,Colorado,Uninsured,0.10771855307593214
+08089,Otero County,Colorado,Uninsured,0.07130349129911351
+08091,Ouray County,Colorado,Uninsured,0.14271496815286622
+08093,Park County,Colorado,Uninsured,0.07006008389071539
+08095,Phillips County,Colorado,Uninsured,0.05459900317172628
+08097,Pitkin County,Colorado,Uninsured,0.04545188651652532
+08099,Prowers County,Colorado,Uninsured,0.1009749894022891
+08101,Pueblo County,Colorado,Uninsured,0.05689230059151473
+08103,Rio Blanco County,Colorado,Uninsured,0.09635173058933588
+08105,Rio Grande County,Colorado,Uninsured,0.13767922343930894
+08107,Routt County,Colorado,Uninsured,0.08024641649218878
+08109,Saguache County,Colorado,Uninsured,0.11016818392223426
+08111,San Juan County,Colorado,Uninsured,0.12463768115942031
+08113,San Miguel County,Colorado,Uninsured,0.10769998752027954
+08115,Sedgwick County,Colorado,Uninsured,0.08333333333333337
+08117,Summit County,Colorado,Uninsured,0.10224212336545635
+08119,Teller County,Colorado,Uninsured,0.06991189963866673
+08121,Washington County,Colorado,Uninsured,0.06280920628092068
+08123,Weld County,Colorado,Uninsured,0.08476753525951475
+08125,Yuma County,Colorado,Uninsured,0.14621383131541144
