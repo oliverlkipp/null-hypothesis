@@ -64,5 +64,13 @@ Key Packages:
 	
 Repository Structure:
 
+	├── Data/
+	│   └── raw/       		     # Original ECCO data files
+	├── scripts/
+	│   └── data_husbandry.R   	 # Data tidying and preparation
+	├── output/
+	│   └── cleaned/     		 # Analysis ready datasets
+	└── README.md
+
 Authors:
 Morignot, A.-E. and Kipp, O.
