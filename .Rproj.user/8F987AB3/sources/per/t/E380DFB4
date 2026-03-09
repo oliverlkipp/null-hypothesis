@@ -1,11 +1,11 @@
 {
     "id": "E380DFB4",
-    "path": "C:/Users/Amora/Documents/CU Boulder/MCDB/Classes/MCDB 6440/Project/data_husbandry.R",
+    "path": "C:/Users/Amora/Documents/CU Boulder/MCDB/Classes/MCDB 6440/Project/null-hypothesis/data_husbandry.R",
     "project_path": "data_husbandry.R",
     "type": "r_source",
-    "hash": "1579626371",
+    "hash": "1156533358",
     "contents": "",
-    "dirty": true,
+    "dirty": false,
     "created": 1773089234947.0,
     "source_on_save": false,
     "relative_order": 4,
@@ -13,15 +13,15 @@
         "tempName": "Untitled1",
         "source_window_id": "",
         "Source": "Source",
-        "cursorPosition": "18,54",
-        "scrollLine": "0"
+        "cursorPosition": "36,0",
+        "scrollLine": "16"
     },
     "folds": "",
-    "lastKnownWriteTime": 1773089780,
+    "lastKnownWriteTime": 1773091409,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1773089780711,
+    "last_content_update": 1773091409977,
     "read_only": false,
     "read_only_alternatives": []
 }
