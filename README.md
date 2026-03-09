@@ -6,6 +6,7 @@ Project Overview:
 	from Exploring Cancer in Colorado (ECCO).
 
 Clean Data Visualization:
+
 <img width="572" height="759" alt="image" src="https://github.com/user-attachments/assets/eac343be-b398-46f8-b440-7752b5f51ad0" />
 
 Data Source:
