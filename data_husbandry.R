@@ -38,3 +38,6 @@ teenhpv_longer <- pivot_longer(teenhpv_vac_data_clean, -County, names_to=".value
 noins_child_data_clean <- noins_child_data_clean %>% 
   filter(measure=="Children without Health Insurance")
 noins_child_longer <- pivot_longer(noins_child_data_clean, -County, names_to=".value")
+
+#Combine longer data frames into one
+alldata_comb <- rbind(noins_child_longer, houseinc_longer, teenhpv_longer)

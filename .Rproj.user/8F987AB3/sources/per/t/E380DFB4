@@ -3,7 +3,7 @@
     "path": "C:/Users/Amora/Documents/CU Boulder/MCDB/Classes/MCDB 6440/Project/null-hypothesis/data_husbandry.R",
     "project_path": "data_husbandry.R",
     "type": "r_source",
-    "hash": "1156533358",
+    "hash": "3709392986",
     "contents": "",
     "dirty": false,
     "created": 1773089234947.0,
@@ -13,15 +13,15 @@
         "tempName": "Untitled1",
         "source_window_id": "",
         "Source": "Source",
-        "cursorPosition": "36,0",
-        "scrollLine": "16"
+        "cursorPosition": "41,36",
+        "scrollLine": "19"
     },
     "folds": "",
-    "lastKnownWriteTime": 1773091409,
+    "lastKnownWriteTime": 1773091998,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1773091409977,
+    "last_content_update": 1773091998930,
     "read_only": false,
     "read_only_alternatives": []
 }
