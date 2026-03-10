@@ -5,6 +5,10 @@ Project Overview:
 	income, and teenage HPV immunization rates across Colorado counties. Data was sourced
 	from Exploring Cancer in Colorado (ECCO).
 
+Clean Data Visualization:
+
+<img width="572" height="759" alt="image" src="https://github.com/user-attachments/assets/eac343be-b398-46f8-b440-7752b5f51ad0" />
+
 Data Source:
 	Provider: Exploring Cancer in Colorado (ECCO) https://coe-ecco.org
 	Geographic Level: County-level data for Colorado
@@ -59,6 +63,14 @@ Key Packages:
 	tidyverse (dplyr, tidyr)
 	
 Repository Structure:
+
+	├── Data/
+	│   └── raw/       		     # Original ECCO data files
+	├── scripts/
+	│   └── data_husbandry.R   	 # Data tidying and preparation
+	├── output/
+	│   └── cleaned/     		 # Analysis ready datasets
+	└── README.md
 
 Authors:
 Morignot, A.-E. and Kipp, O.
