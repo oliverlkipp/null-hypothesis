@@ -73,3 +73,15 @@ ggplot(testdata, aes(x = `Up-To-Date Percent`, y = predicted)) +
   theme_light() +
   geom_point() +                                        # raw data points
   geom_abline(slope = 1, intercept = 0, color = "red")
+
+#Plotting household income vs. health insurance percentage
+ggplot(alldata_wider, aes(x=`Household Income ($)`, y=`Children without Health Insurance`)) +
+  labs(x = "Median Household Income ($)", 
+       y = "Children without Health Insurance Rate", 
+       title = "Children without Health Insurance vs. Median Household Income",
+       subtitle = "Colorado Counties") +
+  theme_minimal() +
+  geom_point(color = "steelblue", size = 2.5) +
+  geom_vline(aes(xintercept = mean(`Household Income ($)`)), color = "lightblue", size = 1.5) +
+  geom_smooth(method = "lm", linetype = "dashed", formula = y~x, color = "darkred")
+
