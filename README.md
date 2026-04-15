@@ -64,8 +64,8 @@ Key Packages:
 	
 Repository Structure:
 
-	├── Data/
-	│   └── raw/       		     # Original ECCO data files
+	├── Raw Data/				 # Original ECCO data files
+	│     		     
 	├── scripts/
 	│   └── data_husbandry.R   	 # Data tidying and preparation
 	├── output/
