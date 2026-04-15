@@ -33,22 +33,32 @@ householdinc_data_clean <- householdinc_data_clean %>%
   filter(measure=="Household Income ($)")
 houseinc_longer <- pivot_longer(householdinc_data_clean, -County, names_to=".value")
 
+#Creating subsets with only females or only males
+male_vac_data_clean <- teenhpv_vac_data_clean %>% 
+  filter(sex=="Male")
+male_vac_data_clean <- male_vac_data_clean[,-4]
+malevac_longer <- pivot_longer(male_vac_data_clean, -County, names_to=".value")
+
+female_vac_data_clean <- teenhpv_vac_data_clean %>% 
+  filter(sex=="Female")
+female_vac_data_clean <- female_vac_data_clean[,-4]
+femalevac_longer <- pivot_longer(female_vac_data_clean, -County, names_to=".value")
+
 #Only keeping rows with both sexes included + pivoting data
 teenhpv_vac_data_clean <- teenhpv_vac_data_clean %>% 
   filter(sex=="All")
 teenhpv_vac_data_clean <- teenhpv_vac_data_clean[,-4]
 teenhpv_longer <- pivot_longer(teenhpv_vac_data_clean, -County, names_to=".value")
 
-#Only keeping rows with measurement of child insurance rates + pivoting data
-noins_child_data_clean <- noins_child_data_clean %>% 
-  filter(measure=="Children without Health Insurance")
-noins_child_longer <- pivot_longer(noins_child_data_clean, -County, names_to=".value")
-
 #Combine longer data frames into one
 alldata_comb <- rbind(noins_child_longer, houseinc_longer, teenhpv_longer)
+maledata_comb <- rbind(noins_child_longer, houseinc_longer, malevac_longer)
+femaledata_comb <- rbind(noins_child_longer, houseinc_longer, femalevac_longer)
 
 #Convert full data frame into a wider format for linear regression analysis
 alldata_wider <- pivot_wider(alldata_comb, names_from = measure, values_from = value)
+maledata_wider <- pivot_wider(maledata_comb, names_from = measure, values_from = value)
+femaledata_wider <- pivot_wider(femaledata_comb, names_from = measure, values_from = value)
 
 #General logical regression model generation for evaluation of the factors with most impact
 set.seed(6440)
@@ -78,10 +88,68 @@ ggplot(testdata, aes(x = `Up-To-Date Percent`, y = predicted)) +
 ggplot(alldata_wider, aes(x=`Household Income ($)`, y=`Children without Health Insurance`)) +
   labs(x = "Median Household Income ($)", 
        y = "Children without Health Insurance Rate", 
-       title = "Children without Health Insurance vs. Median Household Income",
+       title = expression(bold("Children without Health Insurance vs. Median Household Income")),
        subtitle = "Colorado Counties") +
   theme_minimal() +
   geom_point(color = "steelblue", size = 2.5) +
   geom_vline(aes(xintercept = mean(`Household Income ($)`)), color = "lightblue", size = 1.5) +
   geom_smooth(method = "lm", linetype = "dashed", formula = y~x, color = "darkred")
+
+#Plotting household income vs. vaccination rate in males and females
+#Males:
+ggplot(maledata_wider, aes(x=`Household Income ($)`, y=`Up-To-Date Percent`)) +
+  labs(x = "Median Household Income ($)", 
+       y = "HPV Immunization Rate", 
+       title = expression(bold("HPV Immunization Rate in Boys vs. Household Income")),
+       subtitle = "Colorado Counties") +
+  ylim(0, 1) +
+  theme_minimal() +
+  geom_point(color = "steelblue", size = 2.5) +
+  #geom_vline(aes(xintercept = mean(`Household Income ($)`)), color = "lightblue", size = 1.5) +
+  geom_smooth(method = "lm", linetype = "dashed", formula = y~x, color = "darkred")
+
+#Females:
+ggplot(femaledata_wider, aes(x=`Household Income ($)`, y=`Up-To-Date Percent`)) +
+  labs(x = "Median Household Income ($)", 
+       y = "HPV Immunization Rate", 
+       title = expression(bold("HPV Immunization Rate in Girls vs. Household Income")),
+       subtitle = "Colorado Counties") +
+  ylim(0, 1) +
+  theme_minimal() +
+  geom_point(color = "steelblue", size = 2.5) +
+  #geom_vline(aes(xintercept = mean(`Household Income ($)`)), color = "lightblue", size = 1.5) +
+  geom_smooth(method = "lm", linetype = "dashed", formula = y~x, color = "darkred")
+
+#Plotting children without insurance vs. vaccination rate in males and females
+#Males:
+ggplot(maledata_wider, aes(x=`Children without Health Insurance`, y=`Up-To-Date Percent`)) +
+  labs(x = "Proportion of Boys without Health Insurance", 
+       y = "HPV Immunization Rate", 
+       title = expression(bold("HPV Immunization Rate in Boys vs. Proportion of Children without Health Insurance")),
+       subtitle = "Colorado Counties") +
+  ylim(0, 1) +
+  theme_minimal() +
+  geom_point(color = "steelblue", size = 2.5) +
+  #geom_vline(aes(xintercept = mean(`Household Income ($)`)), color = "lightblue", size = 1.5) +
+  geom_smooth(method = "lm", linetype = "dashed", formula = y~x, color = "darkred")
+
+#Females:
+ggplot(femaledata_wider, aes(x=`Children without Health Insurance`, y=`Up-To-Date Percent`)) +
+  labs(x = "Proportion of Girls without Health Insurance", 
+       y = "HPV Immunization Rate", 
+       title = expression(bold("HPV Immunization Rate in Girls vs. Proportion of Children without Health Insurance")),
+       subtitle = "Colorado Counties") +
+  ylim(0, 1) +
+  theme_minimal() +
+  geom_point(color = "steelblue", size = 2.5) +
+  #geom_vline(aes(xintercept = mean(`Household Income ($)`)), color = "lightblue", size = 1.5) +
+  geom_smooth(method = "lm", linetype = "dashed", formula = y~x, color = "darkred")
+
+#Statistical analysis
+mean(maledata_wider$`Up-To-Date Percent`, na.rm = TRUE)
+mean(femaledata_wider$`Up-To-Date Percent`, na.rm = TRUE)
+lm(`Up-To-Date Percent`~`Household Income ($)`, maledata_wider)
+lm(`Up-To-Date Percent`~`Household Income ($)`, femaledata_wider)
+lm(`Up-To-Date Percent`~`Children without Health Insurance`, maledata_wider)
+lm(`Up-To-Date Percent`~`Children without Health Insurance`, femaledata_wider)
 
