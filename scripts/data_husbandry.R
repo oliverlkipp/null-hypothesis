@@ -1,4 +1,5 @@
 library(tidyverse)
+library(Hmisc)
 
 #Transfer raw data from CSV into data frames
 noins_child_data <- read.csv("C:/Users/Amora/Documents/CU Boulder/MCDB/Classes/MCDB 6440/Project/null-hypothesis/Data/Children without Health Insurance Disparities/ECCO_disparities_county.csv")
@@ -73,8 +74,17 @@ varcor <- cor(traindata[, c("Household Income ($)", "Children without Health Ins
 mean(tmm_error)
 summary(tmultimodel)
 plot(tmultimodel)
-modelcor
-varcor
+modelcor #Pearson's correlation for the overall model
+varcor #Pearson's correlation matrix for each individual pairing of variables
+
+#Pearson's correlation
+result <- rcorr(as.matrix(traindata[, c("Household Income ($)", 
+                                        "Children without Health Insurance", 
+                                        "Up-To-Date Percent")]), 
+                type = "pearson")
+
+result$r
+result$P
 
 #Plotting the model
 testdata$predicted <- tmm_predicted
@@ -84,72 +94,63 @@ ggplot(testdata, aes(x = `Up-To-Date Percent`, y = predicted)) +
   geom_point() +                                        # raw data points
   geom_abline(slope = 1, intercept = 0, color = "red")
 
-#Plotting household income vs. health insurance percentage
-ggplot(alldata_wider, aes(x=`Household Income ($)`, y=`Children without Health Insurance`)) +
-  labs(x = "Median Household Income ($)", 
-       y = "Children without Health Insurance Rate", 
-       title = expression(bold("Children without Health Insurance vs. Median Household Income")),
-       subtitle = "Colorado Counties") +
-  theme_minimal() +
-  geom_point(color = "steelblue", size = 2.5) +
-  geom_vline(aes(xintercept = mean(`Household Income ($)`)), color = "lightblue", size = 1.5) +
-  geom_smooth(method = "lm", linetype = "dashed", formula = y~x, color = "darkred")
-
-#Plotting household income vs. vaccination rate in males and females
-#Males:
-ggplot(maledata_wider, aes(x=`Household Income ($)`, y=`Up-To-Date Percent`)) +
-  labs(x = "Median Household Income ($)", 
-       y = "HPV Immunization Rate", 
-       title = expression(bold("HPV Immunization Rate in Boys vs. Household Income")),
-       subtitle = "Colorado Counties") +
-  ylim(0, 1) +
-  theme_minimal() +
-  geom_point(color = "steelblue", size = 2.5) +
-  #geom_vline(aes(xintercept = mean(`Household Income ($)`)), color = "lightblue", size = 1.5) +
-  geom_smooth(method = "lm", linetype = "dashed", formula = y~x, color = "darkred")
-
-#Females:
-ggplot(femaledata_wider, aes(x=`Household Income ($)`, y=`Up-To-Date Percent`)) +
-  labs(x = "Median Household Income ($)", 
-       y = "HPV Immunization Rate", 
-       title = expression(bold("HPV Immunization Rate in Girls vs. Household Income")),
-       subtitle = "Colorado Counties") +
-  ylim(0, 1) +
-  theme_minimal() +
-  geom_point(color = "steelblue", size = 2.5) +
-  #geom_vline(aes(xintercept = mean(`Household Income ($)`)), color = "lightblue", size = 1.5) +
-  geom_smooth(method = "lm", linetype = "dashed", formula = y~x, color = "darkred")
-
-#Plotting children without insurance vs. vaccination rate in males and females
-#Males:
-ggplot(maledata_wider, aes(x=`Children without Health Insurance`, y=`Up-To-Date Percent`)) +
-  labs(x = "Proportion of Boys without Health Insurance", 
-       y = "HPV Immunization Rate", 
-       title = expression(bold("HPV Immunization Rate in Boys vs. Proportion of Children without Health Insurance")),
-       subtitle = "Colorado Counties") +
-  ylim(0, 1) +
-  theme_minimal() +
-  geom_point(color = "steelblue", size = 2.5) +
-  #geom_vline(aes(xintercept = mean(`Household Income ($)`)), color = "lightblue", size = 1.5) +
-  geom_smooth(method = "lm", linetype = "dashed", formula = y~x, color = "darkred")
-
-#Females:
-ggplot(femaledata_wider, aes(x=`Children without Health Insurance`, y=`Up-To-Date Percent`)) +
-  labs(x = "Proportion of Girls without Health Insurance", 
-       y = "HPV Immunization Rate", 
-       title = expression(bold("HPV Immunization Rate in Girls vs. Proportion of Children without Health Insurance")),
-       subtitle = "Colorado Counties") +
-  ylim(0, 1) +
-  theme_minimal() +
-  geom_point(color = "steelblue", size = 2.5) +
-  #geom_vline(aes(xintercept = mean(`Household Income ($)`)), color = "lightblue", size = 1.5) +
-  geom_smooth(method = "lm", linetype = "dashed", formula = y~x, color = "darkred")
-
 #Statistical analysis
-mean(maledata_wider$`Up-To-Date Percent`, na.rm = TRUE)
-mean(femaledata_wider$`Up-To-Date Percent`, na.rm = TRUE)
-lm(`Up-To-Date Percent`~`Household Income ($)`, maledata_wider)
-lm(`Up-To-Date Percent`~`Household Income ($)`, femaledata_wider)
-lm(`Up-To-Date Percent`~`Children without Health Insurance`, maledata_wider)
-lm(`Up-To-Date Percent`~`Children without Health Insurance`, femaledata_wider)
+lm(`Up-To-Date Percent`~`Household Income ($)`, alldata_wider)
+lm(`Up-To-Date Percent`~`Children without Health Insurance`, alldata_wider)
+summary(lm(`Children without Health Insurance`~`Household Income ($)`, alldata_wider))
+
+# Figure 1: HPV Rate vs. Median Household Income
+ggplot(alldata_wider, aes(x = `Household Income ($)`, y = `Up-To-Date Percent`)) +
+  ylim(0, 1) +
+  geom_point(color = "steelblue", size = 2.5) +
+  geom_smooth(method = "lm", se = TRUE, color = "darkred", linetype = "dashed") +
+  labs(
+    title = "Teen HPV Immunization Rate vs. Median Household Income",
+    subtitle = "Colorado Counties",
+    x = "Median Household Income ($)",
+    y = "Up-to-Date HPV Immunization Rate"
+  ) +
+  theme_minimal() +
+  theme(plot.title = element_text(face = "bold"))
+
+ggsave("figure1_income_vs_hpv.png", width = 8, height = 6, dpi = 300)
+
+# Figure 2: HPV Rate vs. Uninsured Rate
+ggplot(alldata_wider, aes(x = `Children without Health Insurance`, y = `Up-To-Date Percent`)) +
+  ylim(0, 1) +
+  geom_point(color = "steelblue", size = 2.5) +
+  geom_smooth(method = "lm", se = TRUE, color = "darkred", linetype = "dashed") +
+  labs(
+    title = "Teen HPV Immunization Rate vs. Children Without Health Insurance",
+    subtitle = "Colorado Counties",
+    x = "Proportion of Children Without Health Insurance",
+    y = "Up-to-Date HPV Immunization Rate"
+  ) +
+  theme_minimal() +
+  theme(plot.title = element_text(face = "bold"))
+
+ggsave("figure2_uninsured_vs_hpv.png", width = 8, height = 6, dpi = 300)
+
+#Figure 3: Uninsured Rate vs. Median Household Income, quintile boxplot
+alldata_wider_cut <- alldata_wider %>%
+  mutate(income_bin = cut(`Household Income ($)`,
+                          breaks = quantile(`Household Income ($)`, 
+                                            probs = seq(0, 1, 0.2)),
+                          include.lowest = TRUE,
+                          labels = c("37-55", "55-65", "65-77 (State Average)", "77-93", "93-146")))
+
+ggplot(alldata_wider_cut, aes(x = income_bin, y = `Children without Health Insurance`)) +
+  geom_boxplot(aes(fill = income_bin == "65-77 (State Average)"), 
+               outlier.shape = NA, 
+               alpha = 0.5,
+               linewidth = 1) +
+  scale_fill_manual(values = c("TRUE" = "red", "FALSE" = "lightblue"), guide = "none")+
+  geom_jitter(width = 0.15, color = "steelblue", size = 2.5, alpha = 0.3) +
+  labs(x = "Median Household Income Range ($k)",
+       y = "Proportion of Children Without Health Insurance",
+       title = expression(bold("Distribution of Uninsured Rate by Income Quintile")),
+       subtitle = "Colorado Counties") +
+  theme_minimal()
+
+ggsave("figure3_uninsured_vs_income.png", width = 8, height = 6, dpi = 300)
 

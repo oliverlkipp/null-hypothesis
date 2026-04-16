@@ -64,3 +64,4 @@ ggplot(data_wide, aes(x = uninsured, y = hpv_rate)) +
   theme(plot.title = element_text(face = "bold"))
 
 ggsave("figure2_uninsured_vs_hpv.png", width = 8, height = 6, dpi = 300)
+
